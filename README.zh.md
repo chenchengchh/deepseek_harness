@@ -8,6 +8,16 @@ DeepSeek Harness（`dsh`）是由 [DeepSeek AI](https://deepseek.com) 开发的�
 
 文档：[https://deepseek-harness.github.io/deepseek-harness/](https://deepseek-harness.github.io/deepseek-harness/)
 
+## 界面截图
+
+主界面：
+
+![DSH Web 主界面](screenshots/dsh-main.png)
+
+插件市场（dsh-market v1.46.0）：
+
+![插件市场界面](screenshots/plugin-marketplace.png)
+
 ## 开发者预览
 
 DeepSeek Harness 处于 _开发者预览_ 阶段，正在快速迭代。**未来将出现破坏兼容性的变更。**

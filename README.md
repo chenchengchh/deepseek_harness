@@ -8,6 +8,16 @@ It is built on an **everything-is-a-plugin** architecture and powered by [Cordis
 
 Documentation: [https://deepseek-harness.github.io/deepseek-harness/](https://deepseek-harness.github.io/deepseek-harness/)
 
+## Screenshots
+
+Main interface:
+
+![DSH Web Main Interface](screenshots/dsh-main.png)
+
+Plugin marketplace (dsh-market v1.46.0):
+
+![Plugin Marketplace](screenshots/plugin-marketplace.png)
+
 ## Developer preview
 
 DeepSeek Harness is in _developer preview_ and iterating rapidly. **THERE WILL BE COMPATIBILITY-BREAKING CHANGES.**

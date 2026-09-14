@@ -1,8 +1,12 @@
 # 致谢与引用 Acknowledgements
 
-## 界面截图 Screenshot
+## 界面截图 Screenshots
 
-插件市场（dsh-market v1.46.0）界面：
+主界面（DSH Web）：
+
+![DSH Web 主界面](screenshots/dsh-main.png)
+
+插件市场（dsh-market v1.46.0）：
 
 ![插件市场界面](screenshots/plugin-marketplace.png)
 
