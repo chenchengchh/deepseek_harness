@@ -68,6 +68,10 @@ For agents, follow [AGENTS.md](AGENTS.md).
 }
 ```
 
+## Acknowledgements
+
+Everything is a plugin. Thanks to DeepSeek and Liang Sheng. See [ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md).
+
 ## License
 
 [MIT](LICENSE)

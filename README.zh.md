@@ -89,6 +89,10 @@ pnpm dsh web
 }
 ```
 
+## 致谢
+
+一切皆插件。感谢 DeepSeek 与梁圣。详见 [ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md)。
+
 ## 许可证
 
 [MIT](LICENSE)
