@@ -18,6 +18,18 @@ Plugin marketplace (dsh-market v1.46.0):
 
 ![Plugin Marketplace](screenshots/plugin-marketplace.png)
 
+## Plugin market (dsh-market)
+
+The community plugin market is **not** pre-installed. Install it with:
+
+```sh
+dsh plugin --profile web add dshmarket
+```
+
+Then restart `dsh web` and open **Settings → Plugin Market**. Requires dsh web 0.1.0-rc.6 or newer.
+
+> **Requires internet access.** Showing the catalog and installing plugins touches external services: the npm registry (for the `dshmarket` package itself), `awesome-dsh-plugin.com/plugins.json` (the live catalog), and GitHub (plugin Release/source downloads, card images, comments). Installs prefer verified npm packages, then GitHub Release tarballs, then full GitHub source clones — source-only plugins depend on a working GitHub connection. If the catalog host is unreachable, point the market at a mirror with `DSHM_REGISTRY_URL`; on restricted networks you can also set `DSHM_GITHUB_PROXY` for GitHub downloads.
+
 ## Developer preview
 
 DeepSeek Harness is in _developer preview_ and iterating rapidly. **THERE WILL BE COMPATIBILITY-BREAKING CHANGES.**

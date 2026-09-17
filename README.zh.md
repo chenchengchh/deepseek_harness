@@ -18,6 +18,18 @@ DeepSeek Harness（`dsh`）是由 [DeepSeek AI](https://deepseek.com) 开发的�
 
 ![插件市场界面](screenshots/plugin-marketplace.png)
 
+## 插件市场（dsh-market）
+
+社区插件市场**默认未安装**，需手动安装：
+
+```sh
+dsh plugin --profile web add dshmarket
+```
+
+装完后重启 `dsh web`，打开 **设置 → 插件市场**。要求 dsh web ≥ 0.1.0-rc.6。
+
+> **需要外网。** 插件市场与插件安装依赖外部服务：npm registry（安装 `dshmarket` 插件本身）、`awesome-dsh-plugin.com/plugins.json`（实时插件目录）以及 GitHub（插件 Release/源码下载、卡片图片、评论）。安装优先已验证的 npm 包，其次 GitHub Release 压缩包，最后退回整仓 GitHub 源码克隆——纯源码插件依赖可用的 GitHub 连接。若目录源不可达，可设置 `DSHM_REGISTRY_URL` 指向镜像；受限网络下也可为 GitHub 下载配置 `DSHM_GITHUB_PROXY`。
+
 ## 开发者预览
 
 DeepSeek Harness 处于 _开发者预览_ 阶段，正在快速迭代。**未来将出现破坏兼容性的变更。**
